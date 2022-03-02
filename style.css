@@ -45,6 +45,18 @@ html {
 .navbar.sticky .logo a span {
   color: black;
 }
+.navbar .github img{
+  width: 60px;
+  height: 28px;
+  position: relative;
+  top: 8px;
+}
+.navbar .linkedin img{
+  width: 80px;
+  height: 25px;
+  position: relative;
+  top: 7px;
+}
 .navbar .menu li {
   list-style: none;
   display: inline-block;
