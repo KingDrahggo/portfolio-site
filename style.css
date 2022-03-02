@@ -50,14 +50,14 @@ html {
   height: 30px;
   position: relative;
   top: 6px;
-  left: 100px;
+  left: 80px;
 }
 .navbar .linkedin img{
   width: 70px;
   height: 22px;
   position: relative;
   top: 5px;
-  left: 0px;
+  left: -10px;
 }
 .navbar .menu li {
   list-style: none;
