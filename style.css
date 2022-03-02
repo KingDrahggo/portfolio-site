@@ -546,34 +546,6 @@ section .title {
   background: none;
 }
 
-/* footer section styling */
-footer {
-  background: rgb(0, 0, 0);
-  padding: 20px 23px;
-  color: #fff;
-}
-footer span a {
-  color: rgb(240, 89, 19);
-  text-decoration: none;
-}
-footer span a:hoover {
-  text-decoration: underline;
-}
-
-footer .github img{
-  width: 60px;
-  height: 28px;
-  position: relative;
-  top: 8px;
-}
-
-footer .linkedin img{
-  width: 80px;
-  height: 25px;
-  position: relative;
-  top: 7px;
-}
-
 /* Responsive media query start */
 @media (max-width: 1300px) {
   .navbar .logo a {
