@@ -46,14 +46,14 @@ html {
   color: black;
 }
 .navbar .github img{
-  width: 10px;
-  height: 15px;
+  width: 15px;
+  height: 20px;
   position: relative;
   top: 11px;
 }
 .navbar .linkedin img{
-  width: 10px;
-  height: 15px;
+  width: 15px;
+  height: 120px;
   position: relative;
   top: 12px;
 }
