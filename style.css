@@ -46,18 +46,18 @@ html {
   color: black;
 }
 .navbar .github img{
-  width: 60px;
+  width: 80px;
   height: 30px;
   position: relative;
   top: 6px;
   left: 80px;
 }
 .navbar .linkedin img{
-  width: 70px;
-  height: 22px;
+  width: 100px;
+  height: 25px;
   position: relative;
   top: 5px;
-  left: -40px;
+  left: -10px;
 }
 .navbar .menu li {
   list-style: none;
@@ -212,6 +212,7 @@ section .title {
 }
 .about .about-content .right .text p {
   text-align: justify;
+  font-family: "Poppins", sans-serif;
 }
 .about .about-content .right .resume-btn {
   display: inline-block;
@@ -272,6 +273,7 @@ section .title {
 .skills .skills-content .left p {
   text-align: justify;
   font-size: 15px;
+  font-family: "Poppins", sans-serif;
 }
 .skills .skills-content .left p #more{
   display: none;
@@ -400,6 +402,7 @@ section .title {
   transform: scale(1.05);
 }
 .portfolio .carousel .card .text {
+  font-family: "Poppins", sans-serif;
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
@@ -407,6 +410,7 @@ section .title {
 }
 .portfolio .carousel .card p{
   color: #fff;
+  font-family: "Poppins", sans-serif;
 }
 .portfolio .carousel .card img {
   height: 150px;
@@ -459,6 +463,7 @@ section .title {
   font-weight: 600;
   margin-bottom: 10px;
   color: #fff;
+  font-family: "Poppins", sans-serif;
 }
 .contact .contact-content .left p {
   text-align: justify;
@@ -486,6 +491,10 @@ section .title {
   color: white;
   position: relative;
   bottom: 13px;
+  font-family: "Poppins", sans-serif;
+}
+.contact .contact-content .info #email{
+  left: -4px;
 }
 .contact .right{
   position: relative;
