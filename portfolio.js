@@ -49,7 +49,7 @@ $(document).ready(function(){
 		loop: true
 	});
 
-	// Resume download button
+	// Resume open button
 	$('resume-btn').click(function(e) {
 		e.preventDefault();  
 		window.location.href = 'Greg 2022 Resume.docx';
