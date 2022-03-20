@@ -13,6 +13,7 @@ $(document).ready(function(){
 	  }
 	});
 
+
 	// slide-up script
 	$('.scroll-up-btn').click(function(){
 		$('html').animate({scrollTop: 0});
@@ -83,3 +84,8 @@ $(document).ready(function(){
 		}
 	});
 });
+
+window.open('https://dazzling-sinoussi-f256b6.netlify.app', '_blank');
+window.open('https://fervent-meninsky-8ea00b.netlify.app', '_blank');
+window.open('https://peaceful-williams-8db4ac.netlify.app', '_blank');
+window.open('https://xenodochial-edison-9f5187.netlify.app', '_blank');
