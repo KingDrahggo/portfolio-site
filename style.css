@@ -485,7 +485,20 @@ section .title {
   color: rgb(240, 89, 19);
 }
 .contact .contact-content .info .head {
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  top: -5px;
+  text-decoration: underline;
+}
+.contact .contact-content .info .name{
+  position: relative;
+  left: -3px;
+}
+.contact .contact-content .info .email{
+  position: relative;
+  left: -5px;
 }
 .contact .contact-content .info .sub-title {
   color: white;
@@ -493,8 +506,12 @@ section .title {
   bottom: 13px;
   font-family: "Poppins", sans-serif;
 }
-.contact .contact-content .info #email{
+.contact .contact-content .info #name{
+  position: relative;
   left: -4px;
+}
+.contact .contact-content .info #email{
+  left: -5px;
 }
 .contact .right{
   position: relative;
