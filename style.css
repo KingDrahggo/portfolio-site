@@ -164,9 +164,9 @@ section {
 .about,
 .skills,
 .porfolio,
-.contact,
-footer {
+.contact{
   font-family: "Poppins", sans-serif;
+  height: 900px;
 }
 .about .about-content,
 .skills .skills-content,
@@ -197,9 +197,12 @@ section .title {
   height: 400px;
   width: 400px;
   object-fit: cover;
-  border-radius: 6px;
+  border-radius: 30px;
 }
 .about .about-content .right {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
   width: 55%;
 }
 .about .about-content .right .text {
@@ -217,6 +220,7 @@ section .title {
 .about .about-content .right .resume-btn {
   display: inline-block;
   background: rgb(240, 89, 19);
+  width: 150px;
   color: white;
   font-size: 20px;
   font-weight: 500;
@@ -234,12 +238,13 @@ section .title {
   display: inline-block;
   position: relative;
   background: rgb(240, 89, 19);
+  width: 160px;
   color: white;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
-  left: 45%;
+  /* left: 45%; */
   border-radius: 6px;
   border: 2px solid rgb(240, 89, 19);
   transition: all 0.3s ease;
@@ -253,12 +258,90 @@ section .title {
 
 
 /* my skills styling */
+
+
+
+
+
 .skills{
   background-color: #fff;
   height: 900px;
-  /* background-image: linear-gradient(to bottom left, black, white, black); */
+  
 }
-.skills .skills-content .column {
+
+.skills .skills-content .left .text{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.skills .skills-content{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: center;
+ margin: 10px;
+}
+
+.skills .frontend,
+.skills .backend,
+.skills .othertech{
+  background-color: whitesmoke;
+ max-height: max-content;
+  width: auto;
+  font-size: 60px;
+  display: flex;
+  justify-content:center;
+  align-content: center;
+  gap: 30px;
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+}
+
+.skills .skills-content .column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.devicon-javascript-plain:hover,
+.devicon-angularjs-plain:hover,
+.devicon-react-original:hover{
+  transition: all ease-in 0.3s;
+  font-size: 90px;
+}
+
+.devicon-javascript-plain:hover::after,
+.devicon-angularjs-plain:hover::after,
+.devicon-react-original:hover::after{
+  content: attr(data-tooltip);
+  background-color:rgb(240, 89, 19);
+  color: #000;
+  border-radius: 10px;
+  font-size: 0.25em;
+  position: absolute;
+  width: auto;
+  bottom: 0px;
+  left: 0px;
+  transition: all ease-in 0.15s;
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  flex: wrap;
+}
+
+.devicon-javascript-plain,
+.devicon-angularjs-plain,
+.devicon-react-original{
+  position: relative;
+}
+
+.devicon-react-original:hover::after{
+  left: 15px;
+}
+
+  /* background-image: linear-gradient(to bottom left, black, white, black); */
+
+
+/* .skills .skills-content .column {
   width: calc(50% - 30px);
 }
 .skills .skills-content .left{
@@ -360,7 +443,7 @@ section .title {
   height: 40%;
   width: 30px;
   top: 60px;
-}
+} */
 /* .skills-content .right .java::before {
   height: 50%;
   width: 20px;

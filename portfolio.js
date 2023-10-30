@@ -27,12 +27,12 @@ $(document).ready(function(){
 
 	// looking for work button  goes to contact
 	$('.looking-for-work-btn').click(function(){
-		$('html').animate({scrollTop: 3400});
+		$('html').animate({scrollTop: 3800});
 	});
 
 	//   typing animation script
 	var typed3 = new Typed (".typing3", {
-		strings: ["Greetings! My name is"],
+		strings: ["Hello! My name is"],
 		typeSpeed: 100,
 		backSpeed: 60,
 		loop: true
@@ -44,7 +44,7 @@ $(document).ready(function(){
 		loop: true
 	});
 	var typed = new Typed (".typing", {
-		strings: ["Web Developer", "Freelancer"],
+		strings: ["Software Engineer", "Freelancer"],
 		typeSpeed: 100,
 		backSpeed: 60,
 		loop: true
@@ -85,3 +85,27 @@ $(document).ready(function(){
 	});
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const tooltipTrigger = document.querySelector(".tooltip-trigger");
+    const tooltip = document.querySelector(".tooltip");
+
+    tooltipTrigger.addEventListener("mouseenter", function () {
+        tooltip.style.display = "block";
+    });
+    tooltipTrigger.addEventListener("mouseleave", function () {
+        tooltip.style.display = "none";
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function (){
+	const javaScriptTooltip = document.querySelector(".devicon-javascript-plain5");
+	const jsTooltip = document.querySelector(".javascriptTextbox");
+
+	javaScriptTooltip.addEventListener("mouseenter", function(){
+		jsTooltip.style.display = "block";
+	})
+
+	javaScriptTooltip.addEventListener("mouseleave", function(){
+		jsTooltip.style.display = "none";
+	});
+});
