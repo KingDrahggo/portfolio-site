@@ -303,17 +303,31 @@ section .title {
   align-items: center;
 }
 
-
+/* Front END */
 .devicon-javascript-plain:hover,
 .devicon-angularjs-plain:hover,
-.devicon-react-original:hover{
+.devicon-react-original:hover,
+.devicon-jquery-plain:hover,
+.devicon-html5-plain:hover,
+.devicon-css3-plain:hover,
+.devicon-materialui-plain:hover,
+.devicon-bootstrap-plain:hover,
+.devicon-jasmine-plain:hover,
+.devicon-karma-plain:hover{
   transition: all ease-in 0.3s;
   font-size: 90px;
 }
 
 .devicon-javascript-plain:hover::after,
 .devicon-angularjs-plain:hover::after,
-.devicon-react-original:hover::after{
+.devicon-react-original:hover::after,
+.devicon-jquery-plain:hover::after,
+.devicon-html5-plain:hover::after,
+.devicon-css3-plain:hover::after,
+.devicon-materialui-plain:hover::after,
+.devicon-bootstrap-plain:hover::after,
+.devicon-jasmine-plain:hover::after,
+.devicon-karma-plain:hover:after{
   content: attr(data-tooltip);
   background-color:rgb(240, 89, 19);
   color: #000;
@@ -330,11 +344,94 @@ section .title {
 
 .devicon-javascript-plain,
 .devicon-angularjs-plain,
-.devicon-react-original{
+.devicon-react-original,
+.devicon-jquery-plain,
+.devicon-html5-plain,
+.devicon-css3-plain,
+.devicon-materialui-plain,
+.devicon-bootstrap-plain,
+.devicon-jasmine-plain,
+.devicon-karma-plain{
   position: relative;
 }
 
 .devicon-react-original:hover::after{
+  left: 15px;
+}
+
+.devicon-jquery-plain:hover::after,
+.devicon-html5-plain:hover::after,
+.devicon-jasmine-plain:hover::after{
+  left: 10px;
+}
+
+.devicon-css3-plain:hover::after,
+.devicon-karma-plain:hover:after{
+  left: 19px;
+}
+
+
+/* Backend */
+
+.devicon-nodejs-plain,
+.devicon-nextjs-original,
+.devicon-nestjs-plain,
+.devicon-express-original,
+.devicon-mongodb-plain,
+.devicon-python-plain,
+.devicon-materialui-plain,
+.devicon-bootstrap-plain,
+.devicon-jasmine-plain,
+.devicon-karma-plain{
+  position: relative;
+}
+
+
+.devicon-nodejs-plain:hover,
+.devicon-nextjs-original:hover,
+.devicon-nestjs-plain:hover,
+.devicon-express-original:hover,
+.devicon-mongodb-plain:hover,
+.devicon-python-plain:hover,
+.devicon-materialui-plain:hover,
+.devicon-bootstrap-plain:hover,
+.devicon-jasmine-plain:hover,
+.devicon-karma-plain:hover{
+  transition: all ease-in 0.3s;
+  font-size: 90px;
+}
+
+.devicon-nodejs-plain:hover::after,
+.devicon-nextjs-original:hover::after,
+.devicon-nestjs-plain:hover::after,
+.devicon-express-original:hover::after,
+.devicon-mongodb-plain:hover::after,
+.devicon-python-plain:hover::after,
+.devicon-materialui-plain:hover::after,
+.devicon-bootstrap-plain:hover::after,
+.devicon-jasmine-plain:hover::after,
+.devicon-karma-plain:hover:after{
+  content: attr(data-tooltip);
+  background-color:rgb(240, 89, 19);
+  color: #000;
+  border-radius: 10px;
+  font-size: 0.25em;
+  position: absolute;
+  width: auto;
+  bottom: 0px;
+  left: 0px;
+  transition: all ease-in 0.15s;
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  flex: wrap;
+}
+
+.devicon-nodejs-plain:hover::after,
+.devicon-nextjs-original:hover::after,
+.devicon-python-plain:hover::after{
+  left: 10px;
+}
+
+.devicon-nestjs-plain:hover::after{
   left: 15px;
 }
 
