@@ -371,6 +371,7 @@ section .title {
 }
 
 
+
 /* Backend */
 
 .devicon-nodejs-plain,
@@ -379,10 +380,9 @@ section .title {
 .devicon-express-original,
 .devicon-mongodb-plain,
 .devicon-python-plain,
-.devicon-materialui-plain,
-.devicon-bootstrap-plain,
-.devicon-jasmine-plain,
-.devicon-karma-plain{
+.devicon-java-plain,
+.devicon-graphql-plain,
+.devicon-spring-plain{
   position: relative;
 }
 
@@ -393,10 +393,9 @@ section .title {
 .devicon-express-original:hover,
 .devicon-mongodb-plain:hover,
 .devicon-python-plain:hover,
-.devicon-materialui-plain:hover,
-.devicon-bootstrap-plain:hover,
-.devicon-jasmine-plain:hover,
-.devicon-karma-plain:hover{
+.devicon-java-plain:hover,
+.devicon-spring-plain:hover,
+.devicon-graphql-plain:hover{
   transition: all ease-in 0.3s;
   font-size: 90px;
 }
@@ -407,10 +406,9 @@ section .title {
 .devicon-express-original:hover::after,
 .devicon-mongodb-plain:hover::after,
 .devicon-python-plain:hover::after,
-.devicon-materialui-plain:hover::after,
-.devicon-bootstrap-plain:hover::after,
-.devicon-jasmine-plain:hover::after,
-.devicon-karma-plain:hover:after{
+.devicon-java-plain:hover::after,
+.devicon-spring-plain:hover::after,
+.devicon-graphql-plain:hover::after{
   content: attr(data-tooltip);
   background-color:rgb(240, 89, 19);
   color: #000;
@@ -425,6 +423,10 @@ section .title {
   flex: wrap;
 }
 
+.devicon-graphql-plain:hover::after{
+left: 3px;
+}
+
 .devicon-nodejs-plain:hover::after,
 .devicon-nextjs-original:hover::after,
 .devicon-python-plain:hover::after{
@@ -434,6 +436,80 @@ section .title {
 .devicon-nestjs-plain:hover::after{
   left: 15px;
 }
+
+.devicon-java-plain:hover::after{
+  left: 25px;
+}
+
+.devicon-spring-plain:hover::after{
+  left: -6px;
+}
+
+/* Other Technologies */
+
+.devicon-figma-plain,
+.devicon-jira-plain,
+.devicon-git-plain,
+.devicon-github-original,
+.devicon-visualstudio-plain,
+.devicon-amazonwebservices-original,
+.devicon-jenkins-line{
+  position: relative;
+}
+
+
+.devicon-figma-plain:hover,
+.devicon-jira-plain:hover,
+.devicon-git-plain:hover,
+.devicon-github-original:hover,
+.devicon-visualstudio-plain:hover,
+.devicon-amazonwebservices-original:hover,
+.devicon-jenkins-line:hover{
+  transition: all ease-in 0.3s;
+  font-size: 90px;
+}
+
+.devicon-figma-plain:hover::after,
+.devicon-jira-plain:hover::after,
+.devicon-git-plain:hover::after,
+.devicon-github-original:hover::after,
+.devicon-visualstudio-plain:hover::after,
+.devicon-amazonwebservices-original:hover::after,
+.devicon-jenkins-line:hover::after{
+  content: attr(data-tooltip);
+  background-color:rgb(240, 89, 19);
+  color: #000;
+  border-radius: 10px;
+  font-size: 0.25em;
+  position: absolute;
+  width: auto;
+  bottom: 0px;
+  left: 0px;
+  transition: all ease-in 0.15s;
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  flex: wrap;
+}
+
+.devicon-visualstudio-plain:hover::after{
+  left: 10px;
+}
+.devicon-github-original:hover::after,
+.devicon-jenkins-line:hover::after{
+  left: 14px;
+}
+.devicon-figma-plain:hover::after{
+  left: 15px;
+}
+.devicon-amazonwebservices-original:hover::after{
+  left: 25px;
+}
+.devicon-git-plain:hover::after{
+  left: 30px;
+}
+.devicon-jira-plain:hover::after{
+  left: 35px;
+}
+
 
   /* background-image: linear-gradient(to bottom left, black, white, black); */
 
