@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  
 }
 html {
   scroll-behavior: smooth;
@@ -218,7 +219,8 @@ section .title {
   font-family: "Poppins", sans-serif;
 }
 .about .about-content .right .resume-btn {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   background: rgb(240, 89, 19);
   width: 150px;
   color: white;
@@ -235,9 +237,10 @@ section .title {
   color: rgb(240, 89, 19);
 }
 .about .about-content .right .certificate {
-  display: inline-block;
+  display: flex;
   position: relative;
   background: rgb(240, 89, 19);
+  justify-content: center;
   width: 160px;
   color: white;
   font-size: 20px;
